@@ -1,0 +1,46 @@
+.todo {
+  border: 1px solid salmon;
+  background-color: salmon;
+  color: white;
+  border-radius: 6px;
+  margin: 0.5rem;
+  padding: 0.5rem 2rem;
+  width: 320px;
+  text-transform: capitalize;
+}
+
+.add-todo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  padding: 0.25rem 1rem;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid gainsboro;
+  height: 32px;
+}
+
+.button {
+  padding: 0.25rem 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid seagreen;
+  color: white;
+  background-color: seagreen;
+  margin-left: 0.5rem;
+}
+
+.button:hover {
+  color: seagreen;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button:focus,
+.input:focus {
+  outline: none;
+}
